@@ -1,0 +1,57 @@
+.otherContent{
+    display: flex;
+    list-style-type: none;
+    padding:2% 10%;
+    /* padding-top: 2%; */
+}
+
+
+@media only screen and (max-width: 600px) {
+    .otherContent{
+       display: grid;
+       
+    }   
+  }
+
+.other1{
+    margin-left: 20%;
+    height: 250px;
+    width: 250px;
+}
+
+.otherContent h6{
+    font-size: large;
+
+}
+
+.attraction{
+    display: flex;
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .attraction{
+       display: contents;
+    }   
+  }
+
+.attract{
+    height: 300px;
+    width: 300px;
+    /* padding: 5%; */
+}
+
+.attraction h2{
+    color: white;
+}
+
+.attract1{
+    padding:0% 3%;
+    /* width: fit-content; */
+}
+
+.slide img{
+    height: 350px;
+    padding: 3%;
+
+}

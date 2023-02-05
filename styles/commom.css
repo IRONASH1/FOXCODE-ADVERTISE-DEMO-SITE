@@ -1,0 +1,103 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+  
+}
+
+.body{
+  background-color: #e0e0e0;
+}
+
+
+/* loader */
+.preloader-wrapper {
+    position: fixed; /* child */
+  border: 12px solid #f3f3f3; /* Light grey */
+  border-top: 12px solid#444444; /* Blue */
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+  z-index: 99999;
+  top: 50%;
+  left: 50%;
+  margin-left: -39px; /* half of width*/
+  margin-top: -39px; /* half of height */
+  
+  }
+  
+  @keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+  }
+  .fade-out-animation {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .logo{
+    height: 50px;
+    width: 52px;
+}
+
+.socialImage{
+    height: 20px;
+    width: 20px;
+}
+
+#social{
+    margin: auto;
+    margin-left: 40%;
+}
+
+.copyRight{
+    text-align: center;
+    background-color: lightsteelblue;
+    padding-bottom: 2%;
+
+}
+
+.contact{
+    margin-left: 50%;
+    width: 51%;
+}
+.navbar{
+  background-color: lightsteelblue;
+}
+
+/* //contac form */
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* box-sizing: border-box; */
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* box-sizing: border-box; */
+}
+
+
+
+button[type=submit]:hover {
+  background-color: red;
+}
+
+#contactForm {
+  padding:5% 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  #contactForm {
+    padding:5% 10%;
+  }
+}

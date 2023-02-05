@@ -1,0 +1,21 @@
+.about{
+    height: 450px;
+    width: 100%;
+  
+}
+
+.h4{
+    
+    font-weight: bolder;
+}
+
+.discription{
+    padding: 2%;
+    line-height: 1.5px;
+    font-family: cursive;
+    border: 10px solid violet;
+    margin: 5%;
+    margin-top: 1%;
+    background-color: aqua;
+    border-radius: 20px;
+}

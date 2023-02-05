@@ -1,0 +1,78 @@
+
+.carousel-caption{
+background-color: lightgrey;
+}
+
+.carousel-caption strong{
+color: black;
+}
+.animation{
+    margin-left: 7%;
+}
+
+@media only screen and (max-width: 600px) {
+    .animation{
+        width:300px;
+        height: auto;
+    }   
+  }
+
+.carousel-item img{
+    /* width: 300px; */
+    height: 500px;
+}
+
+.cards{
+    padding: 2% 5%;
+    
+}
+
+
+
+.cards img{
+    border-radius: 15px;
+    height: 250px;
+    /* width: 300px; */
+}
+
+.card-title{
+    background-color: cornflowerblue;
+    width: fit-content;
+}
+
+#more{
+    display: none;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.webPic{
+    margin: 8%;
+    height: 300px;
+    width: 300px;
+}
+
+.webContent{
+    padding: 3%;
+    margin-top: 10%;
+    border-radius: 20px;
+    border: 10px solid rgb(31, 142, 133);
+    background-color: white;
+}
+
+.offcanvas-title{
+    margin: auto;
+    font-weight: 900;
+    background-color: burlywood;
+}
+
+.offcanvas-body{
+    background-color: rosybrown;
+}
+
+
+

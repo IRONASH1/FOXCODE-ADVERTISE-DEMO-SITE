@@ -1,0 +1,21 @@
+.webCoding{
+    /* display: flex; */
+    list-style-type: none;
+}
+
+.webPic{
+    margin: auto;
+    padding:2% 25%;   
+    /* height: 300px;
+    width: 300px; */
+}
+
+.webContent{
+ padding:2% 30%;   
+ font-family: cursive;
+}
+
+.webContent h6{
+    font-weight: bold;
+
+}
